@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+}
+
+.weekDays {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 20rem;
+  padding: 10px 20px;
+  margin: 30px 10px 10px 10px;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Form input[type="text"] {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.Form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.todos {
+  margin: 20px 500px 10px 500px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: flex;
+}
+
+.dan {
+  font-weight: bold;
+}
+
+.izbrisi {
+  background: none;
+  border: none;
+  position: relative;
+  float: right;
+  margin-left: 5px;
+}
+
+.kljukica {
+  background: none;
+  border: none;
+  position: relative;
+  float: right;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.gumbi {
+  float: right;
+  position: relative;
+  top: -1.3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+  }
+
+  .weekDays {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20rem;
+    padding: 10px 20px;
+  }
+
+  .Form {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 40px;
+    width: 80%;
+  }
+
+  .Form input[type="text"] {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 300px;
+  }
+
+  .Form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+
+  .todos {
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .dan {
+    font-weight: bold;
+  }
+
+  .izbrisi {
+    background: none;
+    border: none;
+    position: relative;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .kljukica {
+    background: none;
+    border: none;
+    position: relative;
+    float: right;
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+
+  .gumbi {
+    float: right;
+    position: relative;
+    top: -1.3rem;
+  }
+}
